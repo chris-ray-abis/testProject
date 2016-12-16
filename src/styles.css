@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 180px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 180px;
+  background-color: #333;
+  color: #efefef;
+  padding: 30px 0;
+}
+
+@media only screen and (max-width: 768px){
+  body{
+    margin-bottom: 400px;
+  }
+  .footer{
+    height: 400px;
+  }
+}
+
+.footer a{
+  color: #639bcf;
+}
+.footer a:hover{
+  color: #d8e6f3;
+}
+
+/*End of Sticky Footer Styles*/

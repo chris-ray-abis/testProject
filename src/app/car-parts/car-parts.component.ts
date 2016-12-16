@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {CarPart} from '../car-part/car-part';
 import{AboutSectionComponent} from '../about-section/about-section.component';
 import{NavbarComponent} from '../navbar/navbar.component';
+import {FooterComponent} from '../footer/footer.component';
 import {RacingDataService} from '../racing-data.service';
 
 @Component({
