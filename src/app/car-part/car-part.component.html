@@ -1,6 +1,6 @@
 <div>
 	<li [class.featured]="carPart.featured">
-		<h2><a [routerLink]="['/car-parts', carPart.id, carPart.imgLink]">{{carPart.name | uppercase}}</a></h2>
+		<h2><a [routerLink]="['/car-parts', carPart.id]">{{carPart.name | uppercase}}</a></h2>
 		<p class="description">{{carPart.description}}</p>
 		<p class="price">{{carPart.price | currency:"USD":true}}</p>
 		<p *ngIf="carPart.inStock > 0">{{carPart.inStock}} in Stock</p>

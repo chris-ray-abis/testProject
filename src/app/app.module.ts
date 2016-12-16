@@ -30,7 +30,7 @@ import { FooterComponent } from './footer/footer.component';
     RouterModule.forRoot([
       {path:'', redirectTo:'car-parts',pathMatch:'full'},
       {path:  'car-parts', component: CarPartsComponent},
-      {path:  'car-parts/:id/:imgLink', component: PartDetailComponent}
+      {path:  'car-parts/:id', component: PartDetailComponent}
     ])
   ],
   providers: [RacingDataService],
