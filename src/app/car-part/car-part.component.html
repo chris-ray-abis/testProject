@@ -1,0 +1,19 @@
+<div>
+	<li [class.featured]="carPart.featured">
+		<h2><a [routerLink]="['/car-parts', carPart.id]">{{carPart.name | uppercase}}</a></h2>
+		<p class="description">{{carPart.description}}</p>
+		<p class="price">{{carPart.price | currency:"USD":true}}</p>
+		<p *ngIf="carPart.inStock > 0">{{carPart.inStock}} in Stock</p>
+		<p *ngIf="carPart.inStock <= 0">None in Stock</p>
+		<!--<p><img [src]="carPart.imgLink"></p> -->
+		<div class='input-group'>
+			<span class='input-group-btn'>
+				<button class='btn btn-default' type='button'(click)="downQuantity()"><i class='glyphicon glyphicon-minus'></i></button>
+			</span>
+			<input type="text" class='form-control'[(ngModel)]="carPart.quantity">
+			<span class='input-group-btn'>
+				<button class ='btn btn-default' type='button' (click)="upQuantity()"><i class='glyphicon glyphicon-plus'></i></button>
+			</span>
+		</div>
+	</li>
+</div>
