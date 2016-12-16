@@ -28,7 +28,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     RouterModule.forRoot([
       {path:'', redirectTo:'car-parts',pathMatch:'full'},
       {path:  'car-parts', component: CarPartsComponent},
-      {path:  'car-parts/:id', component: PartDetailComponent}
+      {path:  'car-parts/:id/:imgLink', component: PartDetailComponent}
     ])
   ],
   providers: [RacingDataService],
