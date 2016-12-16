@@ -37,3 +37,15 @@ body {
 }
 
 /*End of Sticky Footer Styles*/
+
+.container{
+  max-width: 960px;
+}
+
+.well{
+  background-color: transparent;
+}
+
+.lead{
+  color: #555;
+}
