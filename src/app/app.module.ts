@@ -11,6 +11,7 @@ import { CarPartComponent } from './car-part/car-part.component';
 import { PartDetailComponent } from './part-detail/part-detail.component';
 import { AboutSectionComponent } from './about-section/about-section.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     CarPartComponent,
     PartDetailComponent,
     AboutSectionComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     RouterModule.forRoot([
       {path:'', redirectTo:'car-parts',pathMatch:'full'},
       {path:  'car-parts', component: CarPartsComponent},
-      {path:  'car-parts/:id/:imgLink', component: PartDetailComponent}
+      {path:  'car-parts/:id', component: PartDetailComponent}
     ])
   ],
   providers: [RacingDataService],

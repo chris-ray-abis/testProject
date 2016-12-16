@@ -4,6 +4,7 @@
 			"id":  1,
 		  	"name":  "Super Tires",
 		  	"description": "foo",
+				"descriptionLong": "Robot ipsum Derma septuaurous telluricide theoal plefuge areooma uranthymia foreal ideobiont. Argentlogical butistic poikilothon homourous homoirrhagia intragamy osmiocratic geoiasis. Idiooma osmiomorph ergatotaxy dermatitis octaodont aile pterogeny pornotherm. Vigenome Angloemia glutarclinal pneumonoina arteriooholic.",
 		  	"inStock":  5,
 		  	"price":  4.99,
 		  	"imgLink":  "http://www.new.supertires.com/wp-content/uploads/2013/12/logo1.jpg",
@@ -14,6 +15,7 @@
 		  	"id":  2,
 		  	"name":  "Super Shocks",
 		  	"description": "bar",
+				"descriptionLong": "Ooee ooment coricide hypslithic pachymer allplegia aforelysis spiroenchyma laevocephaly quinqumorphous arcsome. Onychofacient laparococcus vigentron polydeoxyribomorphous coenofoliolate theoectomy otmorphic vendekaphasia. Manlithic gastrurous dermatocarpic tetraistic homoine surence auriculophyte quasio. Sinotropous Galloward hypnohood.",
 		  	"inStock":  5,
 		  	"price":  5.99,
 		  	"imgLink":  "http://supershox.com/wp-content/uploads/2015/10/super-shox-motorcycle.png",
@@ -21,9 +23,10 @@
 		  	"quantity": 0
 	  	},
 	  	{
-		  	"id":  1,
+		  	"id":  3,
 		  	"name":  "Super Steering",
 		  	"description": "baz",
+				"descriptionLong":"Hellenostasis argyrlyte homoeological coenician piloency erythrtome valerooideae polydeoxyriboodont thaumatard logoiana. Decphrenia stereopetal adipomorphic hylably quarternomics maxilloing ergatoeous Indoarian dysmycete natroac labiosperm. Re-trichous stethoify arsenomerous dexstat forthzoon lexicophagy decaious hylooma hexahedronomics.",
 		  	"inStock":  0,
 		  	"price":  21.99,
 		  	"imgLink":  "http://blog.perrinperformance.com/wp-content/uploads/2013/10/tech_supersteer_sshowitworks.jpg",
