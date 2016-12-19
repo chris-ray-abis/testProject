@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import {CarPart} from './car-part/car-part';
 import {Http} from '@angular/http';
+import { Observable } from "rxjs/Observable";
 import 'rxjs/add/operator/map';
 
 @Injectable()
