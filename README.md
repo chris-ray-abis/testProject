@@ -1,5 +1,6 @@
-# MigrationProject
+# Test Project
 
+This is a test project to practice using Angular 2, Bootstrap, and Google Apps Script API Deployment.
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
 
 ## Development server
